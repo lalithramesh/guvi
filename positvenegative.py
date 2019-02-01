@@ -3,5 +3,5 @@ if num > 0:
    print("positive")
 elif num == 0:
    print("zero")
-else num < 0:
+else :
    print("negative")
