@@ -1,12 +1,12 @@
-l,m,=map(int,input().split())
-for i in range(l,m):
+r,s,=map(int,input().split())
+for i in range(r,s):
  y=i
  t=0
  u=0
  while(y>0):
-    o=y%10
-    o=o*o*o
-    u=u+o
+    p=y%10
+    p=p*p*p
+    u=u+p
     y=int(y/10)
 if(u==i):
   if(t==1):
